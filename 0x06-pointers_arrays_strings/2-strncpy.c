@@ -14,13 +14,13 @@ int j;
 j = 0;
 while (j < n && src[j] != '\0')
 {
-dest[j] = src[j];
-j++;
+	dest[j] = src[j];
+	j++;
 }
 while (j < n)
 {
-dest[j] = '\0';	
-j++;
+	dest[j] = '\0';
+	j++;
 }
 
 return (dest);
